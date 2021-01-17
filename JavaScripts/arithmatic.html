@@ -1,0 +1,74 @@
+<html>
+<head>
+	<title>Arithmatic Operations</title>
+	<script>
+	function add()
+	{
+	 var a=10;
+	 var b=20;
+	 document.getElementById("add").innerHTML="The Addition Is :"+ (a+b);
+	 }
+	 function sub()
+	{
+	 var a=10;
+	 var b=20;
+	 document.getElementById("sub").innerHTML="The Subtraction Is :"+ (a-b);
+	 }
+	 function mul()
+	{
+	 var a=10;
+	 var b=20;
+	 document.getElementById("mul").innerHTML="The multiplication Is :"+ (a*b);
+	 }
+	 function div()
+	{
+	 var a=10;
+	 var b=20;
+	 document.getElementById("div").innerHTML="The Division Is :"+ (a/b);
+	 }
+	 function mod()
+	{
+	 var a=10;
+	 var b=20;
+	 document.getElementById("mod").innerHTML="The MOd Is :"+ (a%b);
+	 }
+	 
+	</script>	
+	
+	
+	
+</head> 
+<body>
+<h1>Arithmatic Operations Using javaScripts</h1>
+<h3>if A=10 & B=20 then click on button to get result of following operations</h3>
+
+<fieldset><legend>HELOO</legend>
+<table style="border:1px solid black;">
+
+<tr>
+<th>Addition</th>
+<th>sUBTRACTION</th>
+
+
+</tr>
+<tr><td id="add"></td></tr>
+</table><br>
+</fieldset>
+<p id="sub"></p>
+<p id="mul"></p>
+<p id="div"></p>
+<p id="mod"></p>
+
+
+<button style="background-color:green;color:white;" type="button" onclick="add()";>Addition</button>
+
+<button style="background-color:green;color:white;" type="button" onclick="sub()";>Subtraction</button>
+
+<button style="background-color:green;color:white;" type="button" onclick="mul()";>Multiplication</button>
+
+<button style="background-color:green;color:white;" type="button" onclick="div()";>Division</button>
+
+<button style="background-color:green;color:white;"type="button" onclick="mod()";>Mod</button>
+	
+</body>
+</html>

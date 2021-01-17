@@ -1,0 +1,64 @@
+<html>
+ <title>DATE AND TIME</title>
+<script type="text/javascript/HTML">
+
+	function date()
+	{
+	document.getElementById('date').innerHTML=Date();
+	}
+	function year1()
+	{
+	document.getElementById('year1').innerHTML=getFullYear();
+	}
+	
+	function month()
+	{
+	document.getElementById('month').innerHTML=getMonth();
+	}
+	
+	function date1()
+	{
+	document.getElementById('date1').innerHTML=Date();
+	}
+	
+	function date1()
+	{
+	document.getElementById('date1').innerHTML=Date();
+	}
+	
+	
+	
+
+</script>
+
+<style>
+table, th, td {
+  border: 1px solid black;
+}	
+</style>
+
+<body>
+<div style="background-color:black;padding:10px" >
+<p style="color:white"><b>Assignment- Date And Time .	Name: Mayur Khalkar</b></p>
+
+</div>
+</br>
+	<table>
+		<tr>
+			<th>Functio</th>
+			<th>Output</th>
+		</tr>
+		<tr><td><button type="button" onclick="date()">Date()</button></td><td id="date"></td></tr>
+		<tr><td><button type="button" onclick="year1()">getFullYear()</button></td><td id="year1"></td></tr>
+		<tr><td><button type="button" onclick="month()">getMonth()</button></td><td id="month"></td></tr>
+		<tr><td><button type="button" onclick="hour()">getHours()</button></td><td id="hour"></td></tr>
+		<tr><td><button type="button" onclick="minute()">getMinutes()</button></td><td id="minute"></td></tr>
+		<tr><td><button type="button" onclick="time()">getTime()</button></td><td id="time"></td></tr>
+		<tr><td><button type="button" onclick="day()">getDay()</button></td><td id="day"></td></tr>
+		
+	</table>
+
+
+</body>
+
+</html>
